@@ -73,3 +73,11 @@ button:hover{
     background:#ffcccb ;
     cursor: pointer;
 }
+
+@media screen and (max-width: 400px) {
+    .container {
+        max-width: 450px;
+        width: 100%;
+        padding: 30px;
+    }
+}
